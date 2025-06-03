@@ -1,0 +1,60 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat:700&display=swap');
+
+body {
+    background: #fff url('https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png');
+    color: #222;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article {
+    border: 2px solid #6ec1e4;
+    border-radius: 20px;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: #fafdff;
+    box-shadow: 0 2px 10px 0 #e3f1f6;
+    transition: box-shadow .3s;
+}
+
+h1, h2 {
+    text-align: right;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #e53935;
+    margin: 1.5rem 0 1rem 0;
+}
+
+p, q, b, strong {
+    text-align: right;
+    display: block;
+}
+
+em {
+    color: #388e3c;
+    font-style: italic;
+}
+
+strong {
+    font-family: 'Caveat', cursive;
+    color: #222;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #6ec1e4;
+    margin: 2rem 0;
+}
